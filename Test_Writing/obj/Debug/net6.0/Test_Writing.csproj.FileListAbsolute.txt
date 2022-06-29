@@ -1,0 +1,15 @@
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\bin\Debug\net6.0\Test_Writing.exe
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\bin\Debug\net6.0\Test_Writing.deps.json
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\bin\Debug\net6.0\Test_Writing.runtimeconfig.json
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\bin\Debug\net6.0\Test_Writing.dll
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\bin\Debug\net6.0\Test_Writing.pdb
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\obj\Debug\net6.0\Test_Writing.csproj.AssemblyReference.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\obj\Debug\net6.0\Test_Writing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\obj\Debug\net6.0\Test_Writing.AssemblyInfoInputs.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\obj\Debug\net6.0\Test_Writing.AssemblyInfo.cs
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\obj\Debug\net6.0\Test_Writing.csproj.CoreCompileInputs.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\obj\Debug\net6.0\Test_Writing.dll
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\obj\Debug\net6.0\refint\Test_Writing.dll
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\obj\Debug\net6.0\Test_Writing.pdb
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\obj\Debug\net6.0\Test_Writing.genruntimeconfig.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Test_Writing\obj\Debug\net6.0\ref\Test_Writing.dll

@@ -6,9 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
-                Player p = new Player();
-            
+
+            Player p = new Player();
+
             while (true)
             {
                 Console.WriteLine("1. Inventory Status");
@@ -34,7 +34,7 @@ namespace ConsoleApp1
                 Console.ReadLine();
                 Console.Clear();
             }
-            
+
 
 
 
@@ -43,6 +43,6 @@ namespace ConsoleApp1
 }
 
 
-    
-                
-            
+
+
+
