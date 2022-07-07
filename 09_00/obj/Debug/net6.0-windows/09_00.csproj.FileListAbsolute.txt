@@ -1,0 +1,17 @@
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\bin\Debug\net6.0-windows\09_00.exe
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\bin\Debug\net6.0-windows\09_00.deps.json
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\bin\Debug\net6.0-windows\09_00.runtimeconfig.json
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\bin\Debug\net6.0-windows\09_00.dll
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\bin\Debug\net6.0-windows\09_00.pdb
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\09_00.csproj.AssemblyReference.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\_09_00.Form1.resources
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\09_00.csproj.GenerateResource.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\09_00.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\09_00.AssemblyInfoInputs.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\09_00.AssemblyInfo.cs
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\09_00.csproj.CoreCompileInputs.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\09_00.dll
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\refint\09_00.dll
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\09_00.pdb
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\09_00.genruntimeconfig.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\09_00\obj\Debug\net6.0-windows\ref\09_00.dll
