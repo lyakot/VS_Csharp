@@ -1,0 +1,15 @@
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\bin\Debug\net6.0\Codebase.exe
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\bin\Debug\net6.0\Codebase.deps.json
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\bin\Debug\net6.0\Codebase.runtimeconfig.json
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\bin\Debug\net6.0\Codebase.dll
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\bin\Debug\net6.0\Codebase.pdb
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\obj\Debug\net6.0\Codebase.csproj.AssemblyReference.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\obj\Debug\net6.0\Codebase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\obj\Debug\net6.0\Codebase.AssemblyInfoInputs.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\obj\Debug\net6.0\Codebase.AssemblyInfo.cs
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\obj\Debug\net6.0\Codebase.csproj.CoreCompileInputs.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\obj\Debug\net6.0\Codebase.dll
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\obj\Debug\net6.0\refint\Codebase.dll
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\obj\Debug\net6.0\Codebase.pdb
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\obj\Debug\net6.0\Codebase.genruntimeconfig.cache
+C:\Users\lyako\Documents\GitHub\VS_Csharp\Codebase\obj\Debug\net6.0\ref\Codebase.dll

@@ -2,18 +2,19 @@ namespace _09_00
 {
     public partial class Form1 : Form
     {
-        private Image sprite;
+        private GameObject gameObject;
         public Form1()
         {
             InitializeComponent();
-            sprite = Image.FromFile(@"Sprite/player.png");
+            Point position = new Point(DisplayRectangle.Width / 2, DisplayRectangle.Height);
+            
+            gameObject = new GameObject(CreateGraphics(), position);
         }
 
 
         protected override void OnPaint(PaintEventArgs e)
         {
-            Graphics graphics = e.Graphics;
-            graphics.DrawImage(sprite, 110, 220);
+           gameObject.Update();
         }
 
     }
