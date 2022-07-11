@@ -28,7 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.GameLoop = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
+            // 
+            // GameLoop
+            // 
+            this.GameLoop.Enabled = true;
+            this.GameLoop.Interval = 30;
+            this.GameLoop.Tick += new System.EventHandler(this.GameLoop_Tick);
             // 
             // Form1
             // 
@@ -42,5 +50,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Timer GameLoop;
     }
 }

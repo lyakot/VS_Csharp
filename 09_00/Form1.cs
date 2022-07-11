@@ -1,21 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
 namespace _09_00
 {
     public partial class Form1 : Form
     {
-        private GameObject gameObject;
+        private GameWorld gameWorld;
+        
         public Form1()
         {
             InitializeComponent();
-            Point position = new Point(DisplayRectangle.Width / 2, DisplayRectangle.Height);
-            
-            gameObject = new GameObject(CreateGraphics(), position);
+
+            gameWorld = new GameWorld(DisplayRectangle.Size, CreateGraphics());
+                      
         }
 
-
-        protected override void OnPaint(PaintEventArgs e)
+        private void GameLoop_Tick(object sender, EventArgs e)
         {
-           gameObject.Update();
+            gameWorld.Update();
         }
-
     }
 }
