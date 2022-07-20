@@ -10,7 +10,9 @@ namespace _09_00
     {
         private Graphics graphics;
         private Color backgroundColor;
-        private Size worldSize;
+       
+        public static Size WorldSize { get; private set; }
+
         private GameObject gameObject;
 
         private Graphics dc;
@@ -20,14 +22,14 @@ namespace _09_00
         {
 
 
-            this.worldSize = displayRectangle.Size;
+            WorldSize = displayRectangle.Size;
             
             backgroundColor = ColorTranslator.FromHtml("#000c41");
             this.backBuffer = BufferedGraphicsManager.Current.Allocate(graphics, displayRectangle);
             this.dc = backBuffer.Graphics;
             //Point position = new Point(DisplayRectangle.Width / 2, DisplayRectangle.Height);
 
-            gameObject = new GameObject(dc, new Point(worldSize.Width / 2, worldSize.Height));
+            gameObject = new GameObject(dc);
            
         }
 
