@@ -4,6 +4,8 @@ using System.Linq;
 using System.Drawing;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+
 
 namespace _09_00
 {
@@ -29,6 +31,24 @@ namespace _09_00
 
         public void Update()
         {
+
+            if (Keyboard.IsKeyDown(Keys.D))
+            {
+                position.X += 1;
+            }
+            if (Keyboard.IsKeyDown(Keys.A))
+            {
+                position.X -= 1;
+            }
+            if (Keyboard.IsKeyDown(Keys.S))
+            {
+                position.Y += 1;
+            }
+            if (Keyboard.IsKeyDown(Keys.W))
+            {
+                position.Y -= 1;
+            }
+
             graphics.DrawImage(sprite, position);
             
         }

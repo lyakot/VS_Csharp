@@ -14,7 +14,7 @@ namespace _09_00
         {
             InitializeComponent();
 
-            gameWorld = new GameWorld(DisplayRectangle.Size, CreateGraphics());
+            gameWorld = new GameWorld(DisplayRectangle, CreateGraphics());
                       
         }
 

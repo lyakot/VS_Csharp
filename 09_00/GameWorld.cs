@@ -12,23 +12,30 @@ namespace _09_00
         private Color backgroundColor;
         private Size worldSize;
         private GameObject gameObject;
-        private GameObject test;
 
-        public GameWorld(Size worldSize, Graphics graphics)
+        private Graphics dc;
+        private BufferedGraphics backBuffer;
+
+        public GameWorld(Rectangle displayRectangle, Graphics graphics)
         {
-            this.worldSize = worldSize;
-            this.graphics = graphics;
+
+
+            this.worldSize = displayRectangle.Size;
+            
             backgroundColor = ColorTranslator.FromHtml("#000c41");
+            this.backBuffer = BufferedGraphicsManager.Current.Allocate(graphics, displayRectangle);
+            this.dc = backBuffer.Graphics;
             //Point position = new Point(DisplayRectangle.Width / 2, DisplayRectangle.Height);
 
-            gameObject = new GameObject(graphics, new Point(worldSize.Width / 2, worldSize.Height));
-            test = new GameObject(graphics, new Point(100,100));
+            gameObject = new GameObject(dc, new Point(worldSize.Width / 2, worldSize.Height));
+           
         }
 
         public void Update()
         {
-            gameObject.Update(); 
-            test.Update();
+            dc.Clear(backgroundColor);
+            gameObject.Update();
+            backBuffer.Render();
         }
 
 
