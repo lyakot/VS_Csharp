@@ -10,12 +10,12 @@ namespace _09_00
     {
         private Graphics graphics;
         private Color backgroundColor;
-       
+       public static Graphics Graphics { get; private set; }
         public static Size WorldSize { get; private set; }
 
         private GameObject gameObject;
 
-        private Graphics dc;
+        
         private BufferedGraphics backBuffer;
 
         public GameWorld(Rectangle displayRectangle, Graphics graphics)
@@ -26,16 +26,40 @@ namespace _09_00
             
             backgroundColor = ColorTranslator.FromHtml("#000c41");
             this.backBuffer = BufferedGraphicsManager.Current.Allocate(graphics, displayRectangle);
-            this.dc = backBuffer.Graphics;
+            Graphics = backBuffer.Graphics;
             //Point position = new Point(DisplayRectangle.Width / 2, DisplayRectangle.Height);
+            Initialize();
+            
+        }
 
-            gameObject = new GameObject(dc);
-           
+
+        private void Initialize()
+        {
+
+            gameObject = new GameObject();
+            Player p = new Player();
+            SpriteRenderer sr = new SpriteRenderer();
+
+            gameObject.AddComponent(p);
+            gameObject.AddComponent(sr);
+
+        Awake();
+        Start();
+        }
+        private void Awake()
+        {
+            gameObject.Awake();
+            
+        }
+
+        private void Start()
+        {
+
         }
 
         public void Update()
         {
-            dc.Clear(backgroundColor);
+            Graphics.Clear(backgroundColor);
             gameObject.Update();
             backBuffer.Render();
         }

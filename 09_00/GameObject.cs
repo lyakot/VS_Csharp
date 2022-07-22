@@ -13,33 +13,45 @@ namespace _09_00
     internal class GameObject
     {
 
-        private Image sprite;
-
-        private Graphics graphics;
-
-
-
-        private Transform transform;
+        public Transform Transform { get; private set; }
 
         private Dictionary<string, Component> components = new Dictionary<string, Component>();
 
-        public GameObject(Graphics graphics)
+        public GameObject()
         {
-            this.transform = new Transform();
-            this.sprite = Image.FromFile(@"Sprite/player.png");
-            this.graphics = graphics;
-
-            transform.Position = new Vector2(GameWorld.WorldSize.Width / 2 - sprite.Width / 2, GameWorld.WorldSize.Height - sprite.Height);
-            
-
-
-                }
+            this.Transform = new Transform();
+                  
+        }
 
         public void AddComponent(Component component)
         {
-            components.Add(component.ToString(), component);    
+            components.Add(component.ToString(), component); 
+            component.GameObject = this;
         }
 
+        public Component GetComponent(string component)
+        {
+            return components[component];
+        }
+        public void Awake()
+        {
+            foreach (Component component in components.Values)
+            {
+                component.Awake();
+            }
+
+        }
+        public void Start()
+        {
+            foreach (Component component in components.Values)
+            {
+                if (component.IsEnabled)
+                {
+                    component.Start();
+                }
+                
+            }
+        }
         public void Update()
         {
 
@@ -61,9 +73,13 @@ namespace _09_00
             //}
             foreach (Component component in components.Values)
             {
-                component.Update();
+
+                if (component.IsEnabled)
+                {
+                    component.Update();
+                }
             }
-            graphics.DrawImage(sprite, transform.Position.X, transform.Position.Y);
+
             
         }
 

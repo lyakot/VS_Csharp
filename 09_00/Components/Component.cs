@@ -8,19 +8,21 @@ namespace _09_00.Components
 {
     abstract class Component
     {
+
+        public bool IsEnabled { get; set; } = true;
         public GameObject GameObject { get; set; }
 
-        public void Awake()
+        public virtual void Awake()
         {
 
         }
 
-        public void Start()
+        public virtual void Start()
         {
 
         }
 
-        public void Update()
+        public virtual void Update()
         {
 
         }
