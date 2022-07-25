@@ -52,11 +52,12 @@ namespace _09_00
                 velocity += new Vector2(1, 0);
             }
 
+            velocity = Vector2.Normalize(velocity);
         }
 
         private void Move()
         {
-            GameObject.Transform.Translate(velocity*speed);
+            GameObject.Transform.Translate(velocity*speed*MyTime.DeltaTime);
         }
 
         public override string ToString()

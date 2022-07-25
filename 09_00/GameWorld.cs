@@ -59,6 +59,7 @@ namespace _09_00
 
         public void Update()
         {
+            MyTime.CalaDeltaTime();
             Graphics.Clear(backgroundColor);
             gameObject.Update();
             backBuffer.Render();
